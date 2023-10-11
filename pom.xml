@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <artifactId>maven-plugins</artifactId>
         <groupId>org.apache.maven.plugins</groupId>
         <version>25</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <groupId>net.zscript.maven-nar</groupId>
     <artifactId>nar-maven-plugin</artifactId>
-    <version>3.10.2-SNAPSHOT</version>
+    <version>3.10.2-alpha</version>
     <packaging>maven-plugin</packaging>
 
     <name>Native ARchive plugin for Maven</name>
@@ -109,7 +108,7 @@
         <url>https://github.com/susanw1/nar-maven-plugin</url>
         <connection>scm:git:https://github.com/susanw1/nar-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/susanw1/nar-maven-plugin.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>3.10.2-alpha</tag>
     </scm>
 
     <issueManagement>
@@ -148,12 +147,12 @@
         <skip.toolchain.it>it0017-toolchain/**</skip.toolchain.it>
         <sonatypeOssSnapshot>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssSnapshot>
         <mavenPluginPluginVersion>3.6.0</mavenPluginPluginVersion>
-        <distMgmtSnapshotsName/>
-        <distMgmtSnapshotsUrl/>
-        <maven.site.cache/>
-        <maven.site.path/>
-        <organization.logo/>
-        <sonar.host.url/>
+        <distMgmtSnapshotsName />
+        <distMgmtSnapshotsUrl />
+        <maven.site.cache />
+        <maven.site.path />
+        <organization.logo />
+        <sonar.host.url />
         <sourceReleaseAssemblyDescriptor>source-release</sourceReleaseAssemblyDescriptor>
     </properties>
 
@@ -674,7 +673,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore/>
+                                                <ignore />
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -688,7 +687,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore/>
+                                                <ignore />
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -701,7 +700,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore/>
+                                                <ignore />
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -715,7 +714,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore/>
+                                                <ignore />
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
