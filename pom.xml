@@ -11,7 +11,7 @@
 
     <groupId>net.zscript.maven-nar</groupId>
     <artifactId>nar-maven-plugin</artifactId>
-    <version>3.10.2-alpha</version>
+    <version>3.10.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>Native ARchive plugin for Maven</name>
@@ -108,7 +108,7 @@
         <url>https://github.com/susanw1/nar-maven-plugin</url>
         <connection>scm:git:https://github.com/susanw1/nar-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/susanw1/nar-maven-plugin.git</developerConnection>
-        <tag>3.10.2-alpha</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
